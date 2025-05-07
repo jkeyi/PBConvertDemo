@@ -6,5 +6,6 @@ target 'PBConvertDemo' do
   use_frameworks!
 
   # Pods for PBConvertDemo
-  pod 'PBConvertFramework', :path => '/Users/bytedance/Documents/mysefl/PBConvertFramework'
+  # pod 'PBConvertFramework', :path => '/Users/bytedance/Documents/mysefl/PBConvertFramework'
+  pod 'PBConvertFramework', :git => 'https://github.com/jkeyi/PBConvertFramework.git'
 end
